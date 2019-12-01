@@ -3,7 +3,7 @@ solu.png : solu.dat
 	
 	
 solu.dat : solu.x
-	./solu.x 10000 >> solu.dat
+	./solu.x 10000 > solu.dat
 
 
 solu.x : solu.cpp
